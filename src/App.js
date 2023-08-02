@@ -91,6 +91,7 @@ const FeeDetails = () => {
                           name={`fees.${yearIndex * 2 + semIndex}.totalFee`}
                         />
                         <ErrorMessage
+                        style={{color:"red"}}
                           name={`fees.${yearIndex * 2 + semIndex}.totalFee`}
                           component="div"
                         />
@@ -101,6 +102,7 @@ const FeeDetails = () => {
                           name={`fees.${yearIndex * 2 + semIndex}.scholarship`}
                         />
                         <ErrorMessage
+                        style={{color:"red"}}
                           name={`fees.${yearIndex * 2 + semIndex}.scholarship`}
                           component="div"
                         />
